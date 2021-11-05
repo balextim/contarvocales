@@ -16,6 +16,7 @@ class ContarVocalesSerial():
                         a+=1
             except UnicodeDecodeError:
                 continue
+        fichero.close()
         return a
     def contarVocale(self):
         e=0
@@ -30,6 +31,7 @@ class ContarVocalesSerial():
                         e+=1
             except UnicodeDecodeError:
                 continue
+        fichero.close()
         return e
     def contarVocali(self):
         i=0
@@ -44,6 +46,7 @@ class ContarVocalesSerial():
                         i+=1
             except UnicodeDecodeError:
                 continue
+        fichero.close()
         return i
     def contarVocalo(self):
         o=0
@@ -58,6 +61,7 @@ class ContarVocalesSerial():
                         o+=1
             except UnicodeDecodeError:
                 continue
+        fichero.close()
         return o
     def contarVocalu(self):
         u=0
@@ -72,5 +76,6 @@ class ContarVocalesSerial():
                         u+=1
             except UnicodeDecodeError:
                 continue
+        fichero.close()
         return u
 

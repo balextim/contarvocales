@@ -24,6 +24,7 @@ class ContarVocalesParalelo(Process):
                         numeroVocales+=1
             except UnicodeDecodeError:
                 continue
+        fichero.close()
         return numeroVocales
 
 
